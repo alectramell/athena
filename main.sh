@@ -19,11 +19,11 @@ clear
 
 if [ $XUSR == "apollo" ] && [ $XKEY == "$XTAG" ]
 then
-	bash ~/scripts/apollo.sh
+	bash <(curl -s https://raw.githubusercontent.com/alectramell/athena/master/apollo.sh)
 
 elif [ $XUSR == "APOLLO" ] && [ $XKEY == "$XTAG" ]
 then
-	bash ~/scripts/apollo.sh
+	bash <(curl -s https://raw.githubusercontent.com/alectramell/athena/master/apollo.sh)
 else
 	echo "Im sorry, I dont recognize you.." | pv -qL 10
 	sleep 0.5
