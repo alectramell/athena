@@ -4,6 +4,7 @@ clear
 
 git add README.md
 git add *.sh
+git add *.log
 
 clear
 
