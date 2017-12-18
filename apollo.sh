@@ -21,6 +21,8 @@ echo "    ${blue}▒${white}██${reset} ${blue}▒${white}██${reset}  "
 echo "             "
 echo "  ${white}A P O L L O${reset}" | pv -qL 10
 echo "             "
+echo "${white}..Press [ENTER]..${reset}"
+echo "             "
 
 read -s -n1
 
